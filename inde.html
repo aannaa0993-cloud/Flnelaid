@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flanela.id | Ngarap Guru Store</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Hubungkan ke file CSS terpisah -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#FAF7F2] text-gray-700 font-['Poppins']">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-[#F3EBE1]">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-[#FFD1DC] rounded-full flex items-center justify-center text-[#FF6B8B]">
+                    <i class="fa-solid fa-cloud-sun text-lg"></i>
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg text-gray-800 leading-tight">Flanela.id</h1>
+                    <p class="text-xs text-gray-400">Ngarap Guru Store</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#home" class="text-gray-600 hover:text-[#FF6B8B] transition">Beranda</a>
+                <a href="#catalog" class="text-gray-600 hover:text-[#FF6B8B] transition">Katalog</a>
+                <a href="#custom" class="text-gray-600 hover:text-[#FF6B8B] transition">Custom Order</a>
+                <a href="#about" class="text-gray-600 hover:text-[#FF6B8B] transition">Tentang Kami</a>
+            </nav>
+            <a href="#custom" class="bg-[#FFB6C1] hover:bg-[#ff9eb0] text-white text-sm font-medium px-4 py-2 rounded-full shadow-sm transition">
+                <i class="fa-solid fa-wand-magic-sparkles mr-1"></i> Pesan Custom
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="max-w-6xl mx-auto px-4 py-12 md:py-20 flex flex-col md:flex-row items-center gap-8">
+        <div class="flex-1 text-center md:text-left">
+            <span class="inline-block bg-[#E2F0CB] text-[#557A46] text-xs font-semibold px-3 py-1 rounded-full mb-4">
+                ✨ 100% Handmade & Custom
+            </span>
+            <h2 class="text-3xl md:text-5xl font-bold text-gray-800 leading-tight mb-4">
+                Kreasikan Bentuk Impianmu dengan <span class="text-[#FF6B8B]">Kain Flanel</span>
+            </h2>
+            <p class="text-gray-600 mb-6 text-sm md:text-base">
+                Selamat datang di <strong>Flanela.id by Ngarap Guru Store</strong>! Menyediakan boneka dan gantungan kunci (ganci) aesthetic berbahan dasar kain flanel berkualitas tinggi. Bisa request bentuk apa saja sesuai keinginanmu! Harga terjangkau mulai dari <strong>Rp5.000 - Rp10.000</strong>.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-3">
+                <a href="#catalog" class="bg-[#FFB6C1] hover:bg-[#ff9eb0] text-white font-medium px-6 py-3 rounded-xl shadow-md transition text-center">
+                    Lihat Katalog
+                </a>
+                <a href="#custom" class="bg-[#E2F0CB] hover:bg-[#d4e6bc] text-[#557A46] font-medium px-6 py-3 rounded-xl transition text-center">
+                    Buat Pesanan Custom
+                </a>
+            </div>
+        </div>
+        <div class="flex-1 flex justify-center">
+            <div class="relative w-72 h-72 md:w-96 md:h-96 bg-[#FFF1F3] rounded-3xl shadow-lg p-6 flex flex-col justify-center items-center text-center border-4 border-white">
+                <div class="w-24 h-24 bg-[#FFD1DC] rounded-full flex items-center justify-center text-4xl text-[#FF6B8B] mb-4 shadow-inner">
+                    🧸
+                </div>
+                <h3 class="font-bold text-xl text-gray-800">Flanela.id Craft</h3>
+                <p class="text-xs text-gray-500 mt-2">Boneka & Ganci Flanel Lucu, Rapi, & Awet Dibuat dengan Penuh Ketelitian.</p>
+                <div class="mt-4 bg-white px-4 py-1.5 rounded-full text-xs font-bold text-[#FF6B8B] shadow-sm">
+                    Mulai Rp5.000 - Rp10.000
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section id="catalog" class="bg-white py-16 border-t border-b border-[#F3EBE1]">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h3 class="text-2xl md:text-3xl font-bold text-gray-800">Katalog Produk</h3>
+                <p class="text-sm text-gray-500 mt-1">Pilih model siap order atau jadikan referensi untuk custom bentukmu!</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- Produk 1 -->
+                <div class="bg-[#FAF7F2] rounded-2xl p-4 shadow-sm border border-[#F3EBE1] flex flex-col justify-between">
+                    <div>
+                        <div class="w-full h-48 bg-[#E2F0CB] rounded-xl flex items-center justify-center text-5xl mb-4 shadow-inner">
+                            🐱
+                        </div>
+                        <span class="text-xs bg-[#FFD1DC] text-[#D84364] px-2.5 py-1 rounded-md font-medium">Ganci Flanel</span>
+                        <h4 class="font-bold text-gray-800 mt-2">Gantungan Kunci Kucing Lucu</h4>
+                        <p class="text-xs text-gray-500 mt-1">Ganci flanel karakter kucing gemas, jahitan tangan super rapi.</p>
+                    </div>
+                    <div class="mt-4 flex justify-between items-center">
+                        <span class="font-bold text-[#FF6B8B]">Rp5.000</span>
+                        <a href="#custom" onclick="selectProduct('Gantungan Kunci Kucing Lucu')" class="bg-white text-gray-700 hover:bg-[#FFB6C1] hover:text-white text-xs font-medium px-3 py-1.5 rounded-lg border border-gray-200 transition">
+                            Pesan Ini
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class="bg-[#FAF7F2] rounded-2xl p-4 shadow-sm border border-[#F3EBE1] flex flex-col justify-between">
+                    <div>
+                        <div class="w-full h-48 bg-[#FFDAC1] rounded-xl flex items-center justify-center text-5xl mb-4 shadow-inner">
+                            🌸
+                        </div>
+                        <span class="text-xs bg-[#FFD1DC] text-[#D84364] px-2.5 py-1 rounded-md font-medium">Ganci Flanel</span>
+                        <h4 class="font-bold text-gray-800 mt-2">Ganci Bentuk Bunga & Daun</h4>
+                        <p class="text-xs text-gray-500 mt-1">Cocok untuk gantungan tas atau kunci motor bernuansa pastel.</p>
+                    </div>
+                    <div class="mt-4 flex justify-between items-center">
+                        <span class="font-bold text-[#FF6B8B]">Rp6.000</span>
+                        <a href="#custom" onclick="selectProduct('Ganci Bentuk Bunga & Daun')" class="bg-white text-gray-700 hover:bg-[#FFB6C1] hover:text-white text-xs font-medium px-3 py-1.5 rounded-lg border border-gray-200 transition">
+                            Pesan Ini
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 3 -->
+                <div class="bg-[#FAF7F2] rounded-2xl p-4 shadow-sm border border-[#F3EBE1] flex flex-col justify-between">
+                    <div>
+                        <div class="w-full h-48 bg-[#B5EAD7] rounded-xl flex items-center justify-center text-5xl mb-4 shadow-inner">
+                            🧸
+                        </div>
+                        <span class="text-xs bg-[#E2F0CB] text-[#557A46] px-2.5 py-1 rounded-md font-medium">Boneka Mini</span>
+                        <h4 class="font-bold text-gray-800 mt-2">Boneka Beruang Flanel Mini</h4>
+                        <p class="text-xs text-gray-500 mt-1">Boneka beruang kecil isi dakron padat, empuk dan menggemaskan.</p>
+                    </div>
+                    <div class="mt-4 flex justify-between items-center">
+                        <span class="font-bold text-[#FF6B8B]">Rp10.000</span>
+                        <a href="#custom" onclick="selectProduct('Boneka Beruang Flanel Mini')" class="bg-white text-gray-700 hover:bg-[#FFB6C1] hover:text-white text-xs font-medium px-3 py-1.5 rounded-lg border border-gray-200 transition">
+                            Pesan Ini
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Order Section -->
+    <section id="custom" class="max-w-4xl mx-auto px-4 py-16">
+        <div class="bg-white rounded-3xl p-6 md:p-10 shadow-sm border border-[#F3EBE1]">
+            <div class="text-center mb-8">
+                <span class="text-xs bg-[#FFD1DC] text-[#D84364] px-3 py-1 rounded-full font-semibold">Bebas Request Bentuk Apa Saja</span>
+                <h3 class="text-2xl font-bold text-gray-800 mt-3">Formulir Custom Pesanan</h3>
+                <p class="text-xs text-gray-500 mt-1">Isi detail pesananmu, hitung estimasi harga otomatis, lalu kirim langsung ke WhatsApp!</p>
+            </div>
+
+            <form id="orderForm" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-medium text-gray-600 mb-1">Nama Pemesan</label>
+                    <input type="text" id="buyerName" required placeholder="Contoh: Nanat" class="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#FF6B8B]">
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-medium text-gray-600 mb-1">Jenis Produk</label>
+                        <select id="productType" class="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#FF6B8B]">
+                            <option value="Gantungan Kunci (Ganci)">Gantungan Kunci (Ganci)</option>
+                            <option value="Boneka Flanel Mini">Boneka Flanel Mini</option>
+                            <option value="Custom Lainnya">Custom Karakter / Bentuk Lainnya</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-medium text-gray-600 mb-1">Estimasi Ukuran</label>
+                        <select id="itemSize" class="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#FF6B8B]">
+                            <option value="Kecil (± 5-7 cm)">Kecil (± 5-7 cm)</option>
+                            <option value="Sedang (± 10-12 cm)">Sedang (± 10-12 cm)</option>
+                            <option value="Besar (± 15 cm)">Besar (± 15 cm)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-medium text-gray-600 mb-1">Detail Custom Bentuk / Karakter yang Diinginkan</label>
+                    <textarea id="customDesc" rows="3" required placeholder="Jelaskan bentuk, warna dominan, atau karakter yang kamu mau (Contoh: Bikin bentuk bunga matahari warna kuning kombinasi putih)" class="w-full px-4 py-2.5 rounded-xl border border-gray-200 text-sm focus:outline-none focus:border-[#FF6B8B]"></textarea>
+                </div>
+
+                <div class="bg-[#FAF7F2] p-4 rounded-2xl border border-[#F3EBE1] flex justify-between items-center">
+                    <div>
+                        <p class="text-xs text-gray-500">Estimasi Kisaran Harga:</p>
+                        <p id="estimatedPrice" class="text-lg font-bold text-[#FF6B8B]">Rp5.000 - Rp8.000</p>
+                    </div>
+                    <span class="text-xs text-gray-400 italic">*Harga final dikonfirmasi via WA</span>
+                </div>
+
+                <button type="button" onclick="sendToWhatsApp()" class="w-full bg-[#FF6B8B] hover:bg-[#ff5274] text-white font-medium py-3 rounded-xl shadow-md transition text-sm flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> Kirim Pesanan ke WhatsApp
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-[#F3EBE1] py-8 text-center text-xs text-gray-500">
+        <p class="font-bold text-gray-700 mb-1">Flanela.id &bull; Ngarap Guru Store</p>
+        <p>Kerajinan Kain Flanel Custom Berkualitas di Jombang &bull; &copy; 2026</p>
+    </footer>
+
+    <!-- Hubungkan ke file JavaScript terpisah -->
+    <script src="script.js"></script>
+</body>
+          </html>
+          
