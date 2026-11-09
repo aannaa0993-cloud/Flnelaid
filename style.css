@@ -1,0 +1,31 @@
+/* Pengaturan kustom tambahan untuk memperhalus estetika pastel */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #FAF7F2;
+}
+
+/* Transisi halus untuk elemen tombol dan kartu */
+a, button {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Kustomisasi scrollbar web agar senada dengan tema pastel */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FAF7F2;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFD1DC;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FFB6C1;
+}
